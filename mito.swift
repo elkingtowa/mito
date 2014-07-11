@@ -4,7 +4,7 @@ let application = NSApplication.sharedApplication()
 application.setActivationPolicy(NSApplicationActivationPolicy.Regular)
 let window = NSWindow(contentRect: NSMakeRect(0, 0, 800, 600), styleMask: NSTitledWindowMask | NSClosableWindowMask | NSMiniaturizableWindowMask, backing: .Buffered, defer: false)
 window.center()
-window.title = "Minimal Swift WebKit Browser"
+window.title = "mito"
 window.makeKeyAndOrderFront(window)
 class WindowDelegate: NSObject, NSWindowDelegate {
     func windowWillClose(notification: NSNotification?) {
